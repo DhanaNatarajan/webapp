@@ -1,0 +1,57 @@
+<div class="topheader">
+  <div class="webcontainer">
+    <div class="topheadlist">
+      <div class="inline-insider">
+        <a href="#" class="topleftlink"><i class="fa fa-envelope-o" aria-hidden="true"></i> testing@gmail.com</a>
+        <a href="tel:9600026384" class="topleftlink"><i class="fa fa-phone" aria-hidden="true"></i>9876543210</a>
+      </div>
+      <div class="inline-insider">
+        <div class="sociallist inline-insider">
+          <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div class="inline-insider righttophead">
+        <div class="inline-insider acoounttop">
+          <a routerLink="myaccount">My Acoount</a>
+        </div>
+        <div class="inline-insider">
+          <a routerLink="wishlist">Wishlist</a>
+        </div>
+        <div class="inline-insider lasttopheader">
+          <a routerLink="help">help</a>
+          <a routerLink="terms">terms</a>
+          <button (click)="languagechange('ENGLISH')"><span *ngIf="tamilshow">english</span></button>
+          <button (click)="languagechange('TAMIL')"><span *ngIf="englishshow">தமிழ்</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<header class="headersection">
+  <div class="webcontainer">
+    <div class="navheader">
+      <a href="#" class="brandlog">
+        <img src="../../assets/images/logo-white.svg" alt="logo">
+      </a>
+      <!-- <button class="navbtn">
+        <span></span>
+      </button> -->
+      <div class="navright">
+        <ul class="navlist">
+          <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">{{'HOME' |webpipe}}</a></li>
+          <li><a routerLink="aboutus" routerLinkActive="active">aboutus</a></li>
+          <li><a routerLink="products" routerLinkActive="active">products</a></li>
+          <li><a routerLink="sale" routerLinkActive="active">sale</a></li>
+          <li><a href="#" routerLinkActive="active">blog</a></li>
+          <li><a routerLink="contactus" routerLinkActive="active">contact us</a></li>
+          <li><a routerLink="cart"><img src="../../assets/images/cart-white.svg" alt="cart"><span></span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,24 @@
+<section class="productsection">
+  <div class="shopcontainer row">
+      <h2 class="sechead">Our Products</h2>
+      <div class="col-sm-12 col-md-12 col-lg-12 desktop">
+        <div class="col-sm-6 col-md-4 col-lg-3" *ngFor="let product of productarray;">
+          <div class="product">
+              <div class="product-body">
+                <div class="product-figure"><img src="https://livedemo00.template-help.com/wt_prod-21756/images/product-5-204x156.png" alt="" width="220" height="160">
+                </div>
+                <h5 class="product-title"><a routerLink="../singlepage/{{product.id}}">{{product.name}}</a></h5>
+                <div class="product-price-wrap">
+                  <div class="product-price product-price-old">{{product.price}}</div>
+                  <div class="product-price">{{product.tamount}}</div>
+                </div>
+                <p class="pdescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+              </div>
+              <div class="product-button-wrap">
+                <div class="product-button"><button class="cartbtn"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart</button></div>
+              </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>

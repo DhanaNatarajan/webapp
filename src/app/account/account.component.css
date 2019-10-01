@@ -1,0 +1,77 @@
+.accountsection{
+    position: relative;
+    padding: 30px 0;
+}
+.accountcontent{
+    max-width: 420px;
+    margin: 0 auto;
+}
+.accounthead{
+    text-align: center;
+    font: 25px/40px 'nova-bold';
+    margin: 20px auto;
+    color: #2e9fff;
+}
+.formgroup{
+    margin-bottom: 15px;
+}
+.formgroup label{
+    font: 16px/20px 'nova-regular';
+    text-transform: capitalize;
+    display: block;
+    margin-bottom: 5px;
+    color: #1e4769;
+}
+.formtext{
+    width: 100%;
+    padding: 5px 5px;
+    font: 16px/20px 'nova-regular';
+    border: 2px solid #333;
+    border-radius: 3px;
+    outline: none;
+}
+.accountbtn{
+    font: 16px/20px 'nova-bold';
+    text-transform: uppercase;
+    background: #2e9fff;
+    padding: 10px 15px;
+    border: 2px solid #2e9fff;
+    min-width: 150px;
+    outline: none;
+    margin: 20px auto;
+    border-radius: 5px;
+    color: #fff;
+}
+.accountflex{
+    display: flex;
+    justify-content: space-between;
+}
+.ccountchange{
+    background: transparent;
+    border: none;
+    font: 16px/16px 'nova-regular';
+    text-transform: uppercase;
+    color: #3f7e8e;
+    border-bottom: 2px solid #3f7e8e;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+}
+.forgotbtn{
+    background: transparent;
+    border: none;
+    font: 16px/16px 'nova-regular';
+    text-transform: uppercase;
+    color: #f00;
+    outline: none;
+    cursor: pointer;
+}
+.checkoutorderlist{
+    padding: 0;
+    list-style: none;
+    margin: 20px auto;
+}
+.checkoutorderlist li{
+    font: 18px/24px 'nova-regular';
+    margin-bottom: 10px;
+}

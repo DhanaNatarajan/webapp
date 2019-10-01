@@ -1,0 +1,106 @@
+<section class="carouselsection">
+  <owl-carousel [options]="SlideOptions" [items]="images" [carouselClasses]="['owl-theme', 'row', 'sliding']">
+    <div class="item" *ngFor="let data of carouseldata;let i= index">
+      <img class="slide-image" src="../../assets/images/banner/{{data.images}}">
+      <div class="carousel-caption firstcaption fadeInRightBig" [ngClass]="{'whitecolor': data.whitecolor == true}">
+        <h4>{{data.heading}}</h4>
+        <h2>{{data.subheading}}</h2>
+        <p>{{data.para}}</p>
+        <button (click)="carbutclick(data.click)">shop now</button>
+      </div>
+    </div>
+  </owl-carousel>
+</section>
+<section class="secondsection">
+		<div class="webcontainer">
+			<div class="secondlist center">
+				<div class="secondbox">
+					<div class="outerring ringpink">
+						<div class="innerring">
+							<img src="../../assets/images/truck.svg" alt="truck">
+						</div>
+					</div>
+					<h4 class="secondhead">FREE SHIPPING</h4>
+					<p class="secondtext">ON ORDER OVER $100</p>
+				</div>
+				<div class="secondbox">
+					<div class="outerring ringgray">
+						<div class="innerring">
+							<img src="../../assets/images/food.svg" alt="food">
+						</div>
+					</div>
+					<h4 class="secondhead">ALWAYS FRESH</h4>
+					<p class="secondtext">PRODUCT WELL PACKAGE</p>
+				</div>
+				<div class="secondbox">
+					<div class="outerring ringblue">
+						<div class="innerring">
+							<img src="../../assets/images/award.svg" alt="award">
+						</div>
+					</div>
+					<h4 class="secondhead">SUPERIOR QUALITY</h4>
+					<p class="secondtext">QUALITY PRODUCTS</p>
+				</div>
+				<div class="secondbox">
+					<div class="outerring ringpurple">
+						<div class="innerring">
+							<img src="../../assets/images/support.svg" alt="support">
+						</div>
+					</div>
+					<h4 class="secondhead">SUPPORT</h4>
+					<p class="secondtext">24/7 SUPPORT</p>
+				</div>
+			</div>
+		</div>
+  </section>
+  
+  <section class="viewsection">
+      <div class="webcontainer">
+        <div class="viewcontent">
+          <h2>QUALITY PRODUCTS</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="dealsection">
+        <div class="webcontainer">
+          <div class="dealcontent">
+            <div class="dealbox">
+              <h6 class="dealsingle">Best Price For You</h6>
+              <h2 class="dealhead">Deal of the day</h2>
+              <p class="dealtext">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+              <h4 class="dealoffer">$10 now $5 only</h4>
+              <button class="dealbtn">shop now</button>
+              <div class="timecount">
+                <div class="timeitem">
+                  <h3 class="timename">hours</h3>
+                  <h5 class="timevalue hours">00</h5>
+                </div>
+                <div class="timeitem">
+                  <h3 class="timename">minutes</h3>
+                  <h5 class="timevalue minutes">00</h5>
+                </div>
+                <div class="timeitem">
+                  <h3 class="timename">seconds</h3>
+                  <h5 class="timevalue seconds">00</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- <section class="carouselsection">
+    <owl-carousel [items]="images" [carouselClasses]="['owl-theme', 'row', 'sliding']">
+      <div class="item" *ngFor="let data of carouseldata;let i= index">
+        <img class="slide-image" src="../../assets/images/banner/{{data.images}}" >
+        <div class="carousel-caption firstcaption fadeInRightBig whitecolor">
+          <h4>{{data.heading}}</h4>
+          <h2>{{data.subheading}}</h2>
+          <p>{{data.para}}</p>
+          <button (click)="carbutclick(data.click)">shop now</button>
+        </div>
+      </div>
+    </owl-carousel>
+  </section> -->
+  

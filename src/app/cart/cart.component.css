@@ -1,0 +1,238 @@
+.carttablesection{
+	position: relative;
+	padding: 40px 0;
+}
+.cartcontent{
+
+}
+.carttable{
+	width: 100%;
+    border: 2px solid #2F9FFF;
+    border-collapse: collapse;
+}
+.carttable thead{
+	background: #2e9fff;
+}
+.carttable thead tr {
+
+}
+.carttable thead tr th{
+	font: 18px/24px 'nova-bold';
+    text-align: left;
+    padding: 10px 5px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.carttable tbody{
+	border-top: 3px solid #2e9fff;
+}
+.carttable tbody tr{
+	border-top: 1px solid #2e9fff;
+}
+.carttable tbody tr td{
+	font: 18px/24px 'nova-regular';
+    padding: 15px 5px;
+}
+.cartpname{
+	width: 50%;
+}
+.cartact{
+	display: flex;
+}
+.cartact button{
+	background: transparent;
+    font: 18px/24px 'nova-bold';
+    padding: 2px 8px;
+    border: 2px solid #255782;
+    min-width: 36px;
+    outline: none;
+}
+.cartact input{
+	font: 18px/24px 'nova-regular';
+    display: inline-block;
+    max-width: 40px;
+    border: 2px solid #255782;
+    margin: 0 5px;
+    text-align: center;
+    padding: 5px;
+    outline: none;
+    color: #255782;
+}
+.cartfull{
+
+}
+.carthalf{
+	float: left;
+    width: 50%;
+}
+.coupontext{
+	background: transparent;
+    border: 2px solid #265782;
+    font: 18px/24px 'nova-bold';
+    outline: none;
+    padding: 10px 5px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 45%;
+    margin: 10px auto;
+    margin-right: 3%;
+    color: #265782;
+}
+.couponbtn{
+	font: 18px/24px 'nova-bold';
+    text-transform: uppercase;
+    background: #265782;
+    color: #fff;
+    padding: 10px 5px;
+    border: 2px solid #265782;
+    border-radius: 5px;
+    max-width: 40%;
+    width: 100%;
+    margin: 10px auto;
+    outline: none;
+}
+.cartupbtn{
+	font: 18px/24px 'nova-bold';
+    text-transform: uppercase;
+    background: transparent;
+    color: #265782;
+    padding: 10px 5px;
+    border: 2px solid #265782;
+    border-radius: 5px;
+    max-width: 40%;
+    width: 100%;
+    outline: none;
+    margin: 10px auto;
+    margin-right: 3%;
+}
+.checkoutbtn{
+	font: 18px/24px 'nova-bold';
+    text-transform: uppercase;
+    background: #2e9fff;
+    color: #fff;
+    padding: 10px 5px;
+    border: 2px solid #2e9fff;
+    border-radius: 5px;
+    max-width: 40%;
+    width: 100%;
+    margin: 10px auto;
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+
+
+.cartchecksection{
+	position: relative;
+    padding: 40px 0;
+}
+.cartcheckcontent{
+
+}
+.boxfull{
+	width: 100%;
+    float: left;
+    padding: 0 10px;
+}
+.boxsix{
+	float: left;
+	width: 50%;
+	padding: 0 15px;
+}
+.cartform{
+
+}
+.cartformmodal{
+	margin-bottom: 15px;
+}
+.cartformtext{
+	font: 16px/20px 'nova-regular';
+    padding: 8px 5px;
+    border: 2px solid #255782;
+    outline: none;
+    color: #255782;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.cartformtext::placeholder{
+	color: #255782;
+}
+.cartformbtn{
+	font: 18px/24px 'nova-bold';
+    text-transform: uppercase;
+    background: #2e9fff;
+    color: #fff;
+    padding: 10px 5px;
+    border: 2px solid #2e9fff;
+    border-radius: 5px;
+    max-width: 40%;
+    width: 100%;
+    margin: 10px auto;
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+}
+.cartchecktable{
+	width: 100%;
+    border: 2px solid #333;
+    border-collapse: collapse;
+}
+.cartchecktable tr td{
+	border: 2px solid #333;
+    font: 16px/24px 'nova-regular';
+    padding: 15px 8px;
+}
+.cartchecktable tr td:nth-child(1){
+	background: #e4e4e4;
+    font: 20px/24px 'nova-bold';
+    text-transform: capitalize;
+    color: #000;
+}
+.cartaddress{
+
+}
+.cartshipamt{
+	display: block;
+    font: 15px/20px 'nova-regular';
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+.cartshipseramt{
+	display: block;
+    font: 16px/20px 'nova-bold';
+    color: #f00;
+}
+.cartshipamt span{
+	width: 15px;
+    height: 15px;
+    background: #2e9fff;
+    position: absolute;
+    left: 0;
+    top: 3px;
+    border-radius: 15px;
+}
+.checkamt span:after{
+	content: '';
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    background: #fff;
+    border-radius: 9px;
+}
+.cartaddress p{
+	margin: 5px auto;
+}
+.cartaddress p span{
+	font-family: nova-bold;
+}
+
+
+.select2-container{
+    min-width: 100%;
+}

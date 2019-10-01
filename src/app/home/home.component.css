@@ -1,0 +1,238 @@
+.owl-carousel .owl-item img{
+	max-height: 720px;
+}
+.carousel-control{
+    background: none;
+}
+.caption-animate .owl-item.active .carousel-caption {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.caption-animate  .owl-item.active .carousel-caption.infinite {
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+
+.caption-animate  .owl-item.active .carousel-caption.hinge {
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+}
+
+.caption-animate .owl-item.active .carousel-caption.flipOutX,
+.caption-animate .owl-item.active .carousel-caption.flipOutY,
+.caption-animate .owl-item.active .carousel-caption.bounceIn,
+.caption-animate .owl-item.active .carousel-caption.bounceOut {
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+}
+.caption-animate .owl-item .carousel-caption.fadeIn,
+.caption-animate .owl-item .carousel-caption.fadeInDown,
+.caption-animate .owl-item .carousel-caption.fadeInDownBig,
+.caption-animate .owl-item .carousel-caption.fadeInLeft,
+.caption-animate .owl-item .carousel-caption.fadeInLeftBig,
+.caption-animate .owl-item .carousel-caption.fadeInRight,
+.caption-animate .owl-item .carousel-caption.fadeInRightBig,
+.caption-animate .owl-item .carousel-caption.fadeInUp,
+.caption-animate .owl-item .carousel-caption.fadeInUpBig{
+	opacity:0;
+}
+.carousel-caption{
+	top: 0;
+	left: 5%;
+	right: auto;
+	text-align: left;
+}
+.carousel-control{
+	width: 50px;
+	height: 50px;
+	top: 47%;
+}
+.firstcaption{
+	position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.firstcaption h4{
+    font: 30px/45px 'nova-bold';
+    margin: 0 auto;
+}
+.firstcaption h2{
+    font: 80px/95px 'nova-bold';
+    margin: 10px auto;
+}
+.firstcaption p{
+    font: 35px/52px 'nova-bold';
+    margin: 0 auto 20px;
+}
+.firstcaption button{
+    font: 20px/30px 'nova-bold';
+    background: #2e9fff;
+    outline: none;
+    border: none;
+    padding: 8px 10px 5px;
+    text-transform: capitalize;
+    margin: 10px auto;
+    vertical-align: middle;
+    border-radius: 3px;
+    min-width: 150px;
+    cursor: pointer;
+    color: #fff;
+}
+.whitecolor{
+	color: #fff;
+}
+.whitecolor button{
+	color: #fff;
+}
+#bannercarousel .owl-nav,#bannercarousel .owl-dots{
+	display: none;
+}
+
+
+
+.secondsection{
+	padding: 40px 0;
+}
+.secondlist{
+
+}
+.secondbox{
+	display: inline-block;
+    padding: 0 15px;
+    max-width: 240px;
+    margin: 20px 20px;
+}
+.outerring{
+	border: 2px solid #2e9fff;
+    padding: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: .8s ease;
+}
+.innerring{
+	background: #2e9fff;
+    padding: 20px;
+    border-radius: 50%;
+    transition: .8s ease;
+}
+.secondbox:hover .innerring{
+	transform: scale(0.9);
+}
+.secondbox:hover .outerring{
+	background: #2e9fff;
+}
+.innerring img{
+	width: 60px;
+}
+.secondhead{
+	font: 18px/26px 'nova-bold';
+	margin: 20px auto 10px;
+}
+.secondtext{
+	font: 16px/20px 'nova-regular';
+	margin: 5px auto;
+}
+
+.viewsection{
+	background: url(../../assets/images/banner/viewbg1.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 7em 0;
+}
+.viewcontent{
+	max-width: 760px;
+    margin: 0px auto;
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+.viewcontent h2{
+	font: 48px/60px 'nova-bold';
+    margin: 10px auto;
+}
+.viewcontent p{
+	font: 22px/35px 'nova-regular';
+    margin: 10px auto;
+}
+
+
+.dealsection{
+	background: url(../../assets/images/banner/bgday.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 6em 0;
+}
+.dealcontent{
+	display: flex;
+    justify-content: flex-end;
+    color: #fff;
+}
+.dealbox{
+	width: 50%;
+}
+.dealsingle{
+	font: 24px/30px 'nova-bold';
+    margin: 10px auto;
+    font-style: italic;
+}
+.dealhead{
+	font: 36px/45px 'nova-extrabold';
+    margin: 15px auto;
+    color: #2e9fff;
+}
+.dealtext{
+	font: 18px/24px 'nova-regular';
+    margin: 15px auto;
+}
+.dealoffer{
+	font: 20px/24px 'nova-bold';
+    margin: 15px auto;
+}
+.dealbtn{
+	font: 20px/30px 'nova-bold';
+    text-transform: capitalize;
+    background: #2e9fff;
+    border: 2px solid #2e9fff;
+    min-width: 180px;
+    padding: 5px 15px;
+    outline: none;
+    border-radius: 5px;
+    margin: 10px auto;
+    cursor: pointer;
+    color: #fff;
+}
+.timecount{
+	display: flex;
+    max-width: 450px;
+    text-align: center;
+    border: 2px solid #fff;
+    border-collapse: collapse;
+    margin: 20px 0 40px;
+    border-radius: 5px;
+}
+.timeitem{
+	display: inline-block;
+    width: 33%;
+    max-width: 150px;
+    border-left: 1px solid #fff;
+    border-collapse: collapse;
+}
+.timename{
+	font: 24px/30px 'nova-bold';
+    margin: 5px auto;
+    text-transform: capitalize;
+    border-bottom: 2px solid #fff;
+}
+.timevalue{
+	font: 36px/45px 'nova-bold';
+    margin: 10px auto;
+    color: #2e9fff;
+}
+
+
+

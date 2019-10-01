@@ -1,0 +1,124 @@
+.singleproductsection{
+    padding: 30px 0;
+    position: relative;
+}
+.singleproductcontent{
+
+}
+.singprodimgcontent{
+    margin: 0 auto;
+}
+.singprodimg{
+    position: relative;
+    padding: 30px 30px;
+    text-align: center;
+    background: #f9f9fb;
+    border: 1px solid #f9f9fb;
+    box-shadow: 0 0 4px 1px #f9f9fb;
+    border-radius: 10px;
+}
+.productsingleimg{
+    width: 100%;
+}
+.singprodeimgscipt {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #54181875;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.singprodeimgscipt img{
+    width: 50px;
+}
+.flexsingleimg{
+    display: flex;
+    overflow: scroll;
+    margin: 20px auto;
+}
+.sinclickimg{
+    text-align: center;
+    padding: 5px 10px;
+    border: 1px solid #bbb8b8;
+    margin-right: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.sinclickimg img{
+    width: 55px;
+    height: 55px;
+}
+.singleprodescrption{
+    
+}
+.pname{
+    color: #000;
+    font: 28px/30px 'nova-bold';
+    text-transform: capitalize;
+    margin: 5px auto 15px;
+}
+.pprice{
+    font: 18px/25px 'nova-bold';
+    margin: 5px auto;
+}
+.ppriceold{
+    color: #f00;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+.pdescription{
+    font: 18px/24px 'nova-regular';
+    margin: 5px auto;
+}
+.singprodoption{
+    list-style: none;
+    padding: 0;
+}
+.singprodoption li{
+    font: 15px/20px 'nova-regular';
+    margin-bottom: 5px;
+    position: relative;
+    color: #255782;
+    padding: 5px 0 5px 35px;
+}
+.singprodoption li:before{
+    content: ' \2713';
+    color: #fff;
+    font: 16px/24px 'nova-bold';
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    background: #333;
+    padding: 2px;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+.singlecartflex{
+    display: flex;
+}
+.addcartbtn{
+    background: transparent;
+    border: 2px solid #333;
+    margin: 0 10px 0 0;
+    font: 18px/24px 'nova-bold';
+    text-transform: uppercase;
+    outline: none;
+    padding: 3px 12px;
+}
+.addwishbtn{
+    background: transparent;
+    border: 2px solid #333;
+    margin: 0 0 0 10px;
+    font: 18px/24px 'nova-bold';
+    text-transform: uppercase;
+    outline: none;
+    padding: 3px 12px;
+}

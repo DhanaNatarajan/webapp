@@ -1,0 +1,111 @@
+.topheader{
+	position: relative;
+    padding: 10px;
+	background: #124c7d;
+	display: none;
+}
+.webcontainer{
+	max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.topheadlist{
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.topheadlist a{
+	color: #fff;
+	font: 16px/20px 'nova-regular';
+	text-decoration: none;
+}
+.topleftlink{
+	display: inline-block;
+    padding: 5px 10px;
+}
+.sociallist{
+
+}
+.sociallist a{
+	display: inline-block;
+    padding: 5px 8px;
+    font-size: 20px;
+}
+.topleftlink .fa{
+	margin-right: 2px;
+}
+.inline-insider{
+	display: inline-block;
+    margin: 0 10px;
+}
+.righttophead a{
+	color: #fff;
+	text-transform: capitalize;
+}
+.acoounttop > a{
+	border: 1px solid #fff;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+.lasttopheader a{
+	padding: 5px 7px;
+}
+.lasttopheader button{
+	padding: 0;
+	background: transparent;
+	border: none;
+	outline: none
+}
+.lasttopheader button span{
+	padding: 5px 20px;
+    color: #fff;
+    font: 16px/20px 'nova-regular';
+    text-transform: capitalize;
+    border: 2px solid #fff;
+    margin-left: 10px;
+}
+
+
+.headersection{
+	padding: 15px 0;
+    box-shadow: 0 0 2px 0 rgba(56,69,84,.2);
+	background-color: #2e9fff;
+}
+.navheader{
+	position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.brandlog{
+	position: absolute;
+    left: 70px;
+    top: -3px;
+}
+.brandlog img{
+	width: 70px;
+}
+.navright{
+
+}
+.navlist{
+	list-style: none;
+}
+.navlist li{
+	display: inline-block;
+	margin: 0 5px;
+}
+.navlist li a{
+	display: block;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    font: 18px/20px 'nova-bold';
+    padding: 5px 10px;
+}
+.navlist li a.active{
+	opacity: .8;
+}
+.navlist li a img{
+	width: 20px;
+	vertical-align: middle;
+}

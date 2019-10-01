@@ -1,0 +1,45 @@
+.footsection{
+	padding: 40px 0 20px;
+    color: #333;
+    display: none;
+}
+.footcontent{
+	width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #333;
+}
+.foot-four{
+	width: 25%;
+    float: left;
+}
+.footlogo{
+	width: 100px;
+}
+.logodescipe{
+	font: 16px/20px 'nova-regular';
+	margin: 5px auto;
+}
+.foothead{
+	font: 18px/25px 'nova-bold';
+    margin: 5px auto 15px;
+    text-transform: capitalize;
+}
+.footlist{
+	padding: 0;
+    list-style: none;
+    margin: 0 auto;
+}
+.footlist li{
+	margin-bottom: 15px;
+}
+.footlist li a{
+	display: inline-block;
+    color: #333;
+    font: 16px/20px 'nova-regular';
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.footcopy{
+	font: 16px/20px 'nova-regular';
+    margin: 5px auto;
+}

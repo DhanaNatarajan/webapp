@@ -1,0 +1,61 @@
+<section class="secbannersection hidenow">
+  <img src="images/banner/lemon2.png" alt="lemon" class="bannerlemon onelemon">
+  <div class="webcontainer">
+    <h2>Webapp Checkout</h2>
+  </div>
+  <img src="images/banner/lemon1.png" alt="lemon" class="bannerlemon twolemon">
+</section>
+
+<section class="singleproductsection">
+  <div class="webcontainer">
+    <div class="singleproductcontent row">
+      <div class="col-sm-12">
+        <div class="col-sm-6">
+          <div class="singprodimgcontent">
+            <div class="singprodimg">
+              <img src="https://livedemo00.template-help.com/wt_prod-21756/images/product-5-204x156.png" alt="onion" class="productsingleimg">
+              <div class="singprodeimgscipt">
+                <img src="../../assets/images/camera.svg" alt="camera">
+              </div>
+            </div>
+            <div class="flexsingleimg">
+              <div class="sinclickimg">
+                <img src="https://livedemo00.template-help.com/wt_prod-21756/images/product-5-204x156.png" alt="onion">
+              </div>
+              <div class="sinclickimg">
+                <img src="https://livedemo00.template-help.com/wt_prod-21756/images/product-5-204x156.png" alt="onion">
+              </div>
+              <div class="sinclickimg">
+                <img src="https://livedemo00.template-help.com/wt_prod-21756/images/product-5-204x156.png" alt="onion">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="singleprodescrption">
+            <h2 class="pname">{{singleitem.name}}</h2>
+            <p class="pprice">{{singleitem.tamount}} <span class="ppriceold">{{singleitem.price}}</span></p>
+            <p class="pdescription">{{singleitem.description}}</p>
+            <ul class="singprodoption">
+              <li>Lorem ipsum dolor sit amet, consectetur dipisicing elit</li>
+              <li>Sed do eiusmod tempor incididunt ut labore et dolore magna</li>
+              <li>Aliqua enim ad minim veniam, quis nostrud exercitation ullamco</li>
+              <li>Laboris nisi ut aliquip ex ea commodo consequat lorem ipsum</li>
+              <li>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod</li>
+              <li>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</li>
+            </ul>
+            <div class="singlecartflex">
+              <button class="addcartbtn" (click)="cartadd('singleitem.id')">add cart</button>
+              <div class="cartact">
+                <button>-</button>
+                <input type="text" name="" value="12">
+                <button>+</button>
+              </div>
+              <button class="addwishbtn">add to wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

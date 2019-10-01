@@ -1,0 +1,57 @@
+.oursersection{
+    background: #fbfbfb url('../../assets/images/worldbg.png') no-repeat;
+    background-size: cover;
+    padding: 30px 0;
+    position: relative;
+    background-position: center;
+}
+.ourserbox{
+    color: #333;
+    text-align: center;
+    padding: 30px 10px;
+    margin: 30px auto;
+    background: #fff;
+    border: 1px solid rgb(223, 229, 232);
+    border-radius: 5px;
+    transition: .5s ease all;
+    max-width: 450px;
+}
+.ourserboximg{
+    padding: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 100px;
+    border-radius: 50%;
+    background: #d2d2d2;
+    height: 100px;
+}
+.ourserboximg img{
+    width: 100%;
+}
+.ourserbox h4{
+    font: 20px/25px 'nova-bold';
+    text-transform: uppercase;
+    margin: 5px auto;
+}
+.ourserbox span{
+    color: #2e9fff;
+    letter-spacing: -2px;
+    margin: 15px auto;
+    display: block;
+}
+.ourserbox p{
+    font: 18px/24px 'nova-regular';
+    margin: 5px auto;
+}
+.ourserbox:hover{
+    background: #2e9fff;
+    color: #ffffff;
+}
+.ourserbox:hover .ourserboximg{
+    background: #ffffff;
+}
+.ourserbox:hover span{
+    color: #ffffff;
+}
+
+
