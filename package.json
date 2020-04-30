@@ -28,7 +28,7 @@
     "express": "^4.17.1",
     "font-awesome": "^4.7.0",
     "hammerjs": "^2.0.8",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "mdr-angular-select2": "^1.0.6",
     "mongodb": "^3.3.2",
     "mongoose": "^5.7.1",
